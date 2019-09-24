@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "yarn webpack",
-    "start": "yarn build"
+    "start": "yarn webpack-dev-server"
   },
   "dependencies": {
     "@types/react": "^16.9.2",
@@ -22,6 +22,7 @@
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-middleware": "^3.7.1",
+    "webpack-dev-server": "^3.8.1",
     "webpack-hot-middleware": "^2.25.0"
   }
 }
